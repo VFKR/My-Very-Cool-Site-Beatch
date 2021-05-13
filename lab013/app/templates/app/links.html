@@ -1,0 +1,10 @@
+﻿{% extends "app/layout.html" %}
+
+{% block content %}
+{% load staticfiles %}
+
+<a href ="https://hobbyworld.ru/" target="_blank"> <img class="linkstext" src="{% static 'app/content/HW.png' %}" alt="Hobby World"height="150" width="300"/>Hobby World, самый крупный русскоязычный издатель настольных игр.</a><br>
+<a href ="https://crowdrepublic.ru/" target="_blank"> <img class="linkstext" src="{% static 'app/content/CrowdRepublic_logo.png' %}" alt="CR" height="150" width="300"/>CrowdRepublic - крупнейшая площадка по сбору средств, для настольных игр.</a><br>
+<a href ="https://vk.com/picnic.pskov" target="_blank"> <img class="linkstext" src="{% static 'app/content/logo_picnic.jpg' %}" alt="Picnic" height="150" width="300"/>Наша группа Вконтакте.</a><br>
+
+{% endblock%}
