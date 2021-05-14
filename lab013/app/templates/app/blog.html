@@ -3,13 +3,15 @@
 {% block content %}
 
 <h2>{{ title }}.</h2>
+
 <hr/>
 
     <div class="container">
         {% for post in posts reversed %}
         <div class="row">
-            <div class="col-9">
+            <div class="col-md-9 dr">
                 <h2>{{post.title}}</h2>
+                <img class="blogimgg" src="{{post.image.url}}" />
                 <h4>{{post.posted}}</h4>
                 <p>{{post.description}}</p>
                 <a href="{% url 'blogpost' parameter=post.id %}" class="btn btn-primary">Читать полностью</a> 

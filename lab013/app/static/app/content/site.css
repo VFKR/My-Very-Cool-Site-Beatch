@@ -4,20 +4,20 @@ body {
     background-color: #f7b854;
 }
 
-/* Set padding to keep content from hitting the edges */
+
 .body-content {
     padding-left: 15px;
     padding-right: 15px;
 }
 
-/* Set width on the form input elements since they're 100% wide by default */
+
 input,
 select,
 textarea {
     max-width: 280px;
 }
 
-/* styles for validation helpers */
+
 .field-validation-error {
     color: #b94a48;
 }
@@ -55,9 +55,7 @@ input[type="checkbox"].input-validation-error {
     height: 200px;
 }
 
-/* My styles */
-/* layout */
-/* Footer */
+
 .footer {
     display: flex;
     justify-content: space-between;
@@ -100,14 +98,6 @@ input[type="checkbox"].input-validation-error {
         margin-left: 0;
     }
 
-
-/* /layout */
-
-
-
-
-/*about*/
-
 .about__text {
     font-weight: 600;
 }
@@ -125,9 +115,7 @@ input[type="checkbox"].input-validation-error {
     text-align: center;
 }
 
-/*/about*/
 
-/*post*/
 .post__text {
     font-size: 20px;
     margin-top: 230px;
@@ -141,9 +129,7 @@ input[type="checkbox"].input-validation-error {
     margin: 0 auto;
     transform: translate(-50%,0);
 }
-/*/post*/
 
-/*helpers*/
 .text-center {
     text-align: center;
 }
@@ -193,5 +179,28 @@ input[type="checkbox"].input-validation-error {
     border-radius: 15px;
     padding: 20px; 
     word-wrap: break-word;
+
+}
+
+.video2 {
+    position: absolute;
+    left: 50%;
+    
+    margin: 20px auto;
+    transform: translate(-50%,0);
+}
+
+.blogimgg
+{
+    width : 200px;
+    height : 150px;
+    position : absolute;
+    left : 95%;
+    top : 10%;
+
+}
+
+.dr{
+    position: relative; 
 
 }
